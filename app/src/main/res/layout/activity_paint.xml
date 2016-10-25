@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_paint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.seewo.note.activities.PaintActivity">
+
+    <RelativeLayout
+        android:id="@+id/titleRL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/note_paint_bar"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/paint_title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/note_paint_title" />
+
+        <ImageButton
+            android:id="@+id/save_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:paddingRight="@dimen/save_button_margin"
+            android:src="@drawable/save_button_selector" />
+
+    </RelativeLayout>
+
+    <com.seewo.note.been.MyCanvas
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/myCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleRL" />
+
+    <include
+        android:id="@+id/paint_right_menu"
+        layout="@layout/type_select_layout" />
+
+    <include android:id="@+id/paint_left_menu"
+        layout="@layout/paint_set_layout" />
+
+
+</RelativeLayout>

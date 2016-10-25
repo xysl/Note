@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="note_item_title">20sp</dimen>
+    <dimen name="note_item_time">18sp</dimen>
+    <dimen name="note_item_margin">8dp</dimen>
+    <dimen name="add_note_button_marginbottom">16dp</dimen>
+    <dimen name="note_paint_title">17sp</dimen>
+    <dimen name="note_paint_bar">44dp</dimen>
+    <dimen name="save_button_margin">16dp</dimen>
+    <dimen name="seekBar_padding">16dp</dimen>
+    <dimen name="paint_size">25sp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">note</string>
+    <string name="paint_rect">矩形</string>
+    <string name="paint_circle">圆</string>
+    <string name="paint_line">直线</string>
+    <string name="paint_curve">铅笔</string>
+    <string name="paint_set_width">粗细设置</string>
+    <string name="paint_set_color">颜色选择</string>
+    <string name="paint_revoke">撤销</string>
+    <string name="paint_regain">恢复</string>
+    <string name="paint_size_number">5</string>
+    <string name="save_to_png">存为图片</string>
+    <string name="paint_eraser">橡皮擦</string>
+</resources>

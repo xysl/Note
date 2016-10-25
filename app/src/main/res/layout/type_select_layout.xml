@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.getbase.floatingactionbutton.FloatingActionsMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/multiple_type_select"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
+    fab:fab_addButtonColorNormal="@color/white"
+    fab:fab_addButtonColorPressed="@color/white_pressed"
+    fab:fab_addButtonPlusIconColor="@color/half_black"
+    fab:fab_addButtonSize="mini"
+    fab:fab_labelStyle="@style/menu_labels_style">
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/paint_eraser_FAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/white"
+        fab:fab_colorPressed="@color/white_pressed"
+        fab:fab_title="@string/paint_eraser" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/paint_rect_FAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/white"
+        fab:fab_colorPressed="@color/white_pressed"
+        fab:fab_title="@string/paint_rect" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/paint_circle_FAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/white"
+        fab:fab_colorPressed="@color/white_pressed"
+        fab:fab_title="@string/paint_circle" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/paint_line_FAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/white"
+        fab:fab_colorPressed="@color/white_pressed"
+        fab:fab_title="@string/paint_line" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/paint_curve_FAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/white"
+        fab:fab_colorPressed="@color/white_pressed"
+        fab:fab_title="@string/paint_curve" />
+
+</com.getbase.floatingactionbutton.FloatingActionsMenu>
